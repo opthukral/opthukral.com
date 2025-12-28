@@ -1,0 +1,44 @@
+body {
+    margin: 0
+}
+
+.header {
+    display: block;
+    background-color: black;
+    width: 100%;
+    height: 90px;
+}
+
+.inner_header {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: "inter";
+    font-size: 20dp;
+    max-width: 1350px;
+    padding: 2%;
+    box-sizing: border-box;
+
+}
+
+.right_header {
+    display: flex;
+    height: 100%;
+    gap: 30px;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    margin: 0 24px;
+}
+
+
+@font-face {
+    font-family: "inter";
+    src: url(fonts/Inter.ttf);
+}
